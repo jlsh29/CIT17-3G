@@ -1,4 +1,4 @@
-<?
+<?php
 // multiply a value by 10 and return it to the caller
 function multiply ($value) {
  $value = $value * 10;
