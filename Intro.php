@@ -11,7 +11,7 @@
     ?>
 
     <p> This is a <?php echo "Jelisha"; ?> paragraph </p>
-    <?php echo "This is also a paragraph <br>"; ?>
+    <?php echo "This is ALSO a paragraph <br><br>"; ?>
 
     <?php 
     // Scalar Types (contain one variable)
@@ -24,8 +24,10 @@
     $name = array("Jelisha" , "Renz");
     $array = ["Jelisha" , "Renz"];
 
-    echo "$string <br> $int <br> $float"; 
-    
+    echo " The string Value is $string <br> The integer value is $int <br> The float value is $float"; 
     ?>
+
+    <p> I am <?php echo $string; ?> and my age is <?php echo $int; ?> </p>    
+
 </body>
 </html>
