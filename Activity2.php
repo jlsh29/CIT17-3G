@@ -6,4 +6,4 @@ function multiply ($value) {
 }
 $retval = multiply (10);
 Print "Return value is $retval\n";
-?
+?>
