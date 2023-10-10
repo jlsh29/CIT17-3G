@@ -23,28 +23,12 @@
             $favorite_pet = $_POST['favorite_pet'];
 
             if ($favorite_pet == "DOG") {
-                echo '<label for="dog_breed">Choose a Dog Breed:</label>
-                <select name="dog_breed">
-                    <option value="Labrador">Labrador</option>
-                    <option value="Golden Retriever">Golden Retriever</option>
-                    <option value="German Shepherd">German Shepherd</option>
-                </select><br><br>';
-                
                 echo 'You are a Dog Lover';
             } elseif ($favorite_pet == "CAT") {
-                echo '<label for="cat_breed">Choose a Cat Breed:</label>
-                <select name="cat_breed">
-                    <option value="Siamese">Siamese</option>
-                    <option value="Persian">Persian</option>
-                    <option value="Maine Coon">Maine Coon</option>
-                </select><br><br>';
-                
                 echo 'You are a Cat Lover';
             }
         }
         ?>
-        <br>
-        <br>
         <input type="submit" name="submit" value="Submit">
     </form>
 </body>
