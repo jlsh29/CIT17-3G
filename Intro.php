@@ -21,8 +21,8 @@
     $bool = true;
 
     //Array type (Multiple variable)
-    $name = array("Jelisha" , "Renz");
-    $array = ["Jelisha" , "Renz"];
+    $name = array("Jelisha" , "Banaria");
+    $array = ["Jelisha" , "Banaria"];
 
     echo " The string Value is $string <br> The integer value is $int <br> The float value is $float"; 
     ?>
