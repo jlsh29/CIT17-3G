@@ -1,5 +1,5 @@
 <?php
-$channel =<<<_XML_
+$channel = <<<_XML_
 <channel>
 <title>What's For Dinner<title>
 <link>http://menu.example.com/<link>
