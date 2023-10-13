@@ -24,7 +24,8 @@
     $name = array("Jelisha" , "Banaria");
     $array = ["Jelisha" , "Banaria"];
 
-    echo " The string Value is $string <br> The integer value is $int <br> The float value is $float"; 
+    echo " The string Value is $string <br> The integer value is $int <br> The float value is $float <br>"; 
+    echo $array[0];
     ?>
 
     <p> I am <?php echo $string; ?> and my age is <?php echo $int; ?> </p>    
