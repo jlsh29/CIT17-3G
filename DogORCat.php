@@ -28,6 +28,7 @@
                 echo 'You are a Cat Lover';
             }
         }
+        
         ?>
         <input type="submit" name="submit" value="Submit">
     </form>
